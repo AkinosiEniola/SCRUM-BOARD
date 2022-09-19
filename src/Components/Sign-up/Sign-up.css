@@ -1,0 +1,53 @@
+
+h1{
+    margin-top: 8px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.upform{
+    background-color: #EBEBEB;
+    padding: 30px;
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    border-radius: 12px;
+    transform: translateX(-50%);
+}
+input[type = text],
+input[type = email],
+input[type = password]{
+    width: 300px;
+    height: 24px;
+    margin-bottom: 12px;
+}
+input::placeholder{
+    font-size: small;
+    font-weight: lighter;
+}
+.mr{
+    width: 305px;
+    height: 30px;
+}
+.upbutton{
+    padding: 6px;
+    margin-top: 12px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    border: none;
+}
+.upbutton:hover{
+    background-color: black;
+    border: 2px solid white;
+}
+
+.messages{
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -6px;
+}
